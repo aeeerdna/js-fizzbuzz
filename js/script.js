@@ -23,6 +23,7 @@ for (let number = 1; number <= 100; number++) {
 
     const element = document.createElement('div');
 
+    // BONUS EXERCISE 1
     element.className = 'square';
     if (text.length > 0) {
         element.classList.add(text);
